@@ -1,0 +1,91 @@
+*{
+    background: black;
+}
+.box{
+    background: transparent;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    top: 200px;
+    left: 400px;
+    
+}
+.orange{
+    background: rgb(252, 72, 6);
+    width: 600px;
+    height: 100px;
+}
+.white{
+    background: white;
+    width: 600px;
+    height: 100px;
+}
+.green{
+    background: green;
+    width: 600px;
+    height: 100px;
+}
+.bluecir{
+    background: transparent;
+    border: 3px solid blue;
+    width: 95px; 
+    height: 95px;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+}
+.bluecir .line {
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: darkblue;
+}
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+ 
+.line:nth-child(2) {
+    transform: rotate(30deg)
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
